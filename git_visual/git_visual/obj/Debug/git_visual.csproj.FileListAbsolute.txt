@@ -9,3 +9,14 @@ C:\Users\CryBow\projects_VS\git_visual\git_visual\obj\Debug\git_visual.csproj.Ge
 C:\Users\CryBow\projects_VS\git_visual\git_visual\obj\Debug\git_visual.csproj.CoreCompileInputs.cache
 C:\Users\CryBow\projects_VS\git_visual\git_visual\obj\Debug\git_visual.exe
 C:\Users\CryBow\projects_VS\git_visual\git_visual\obj\Debug\git_visual.pdb
+C:\Users\User\Source\Repos\test_git_3\git_visual\git_visual\bin\Debug\git_visual.exe.config
+C:\Users\User\Source\Repos\test_git_3\git_visual\git_visual\bin\Debug\git_visual.exe
+C:\Users\User\Source\Repos\test_git_3\git_visual\git_visual\bin\Debug\git_visual.pdb
+C:\Users\User\Source\Repos\test_git_3\git_visual\git_visual\obj\Debug\git_visual.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\test_git_3\git_visual\git_visual\obj\Debug\git_visual.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Source\Repos\test_git_3\git_visual\git_visual\obj\Debug\git_visual.Form1.resources
+C:\Users\User\Source\Repos\test_git_3\git_visual\git_visual\obj\Debug\git_visual.Properties.Resources.resources
+C:\Users\User\Source\Repos\test_git_3\git_visual\git_visual\obj\Debug\git_visual.csproj.GenerateResource.cache
+C:\Users\User\Source\Repos\test_git_3\git_visual\git_visual\obj\Debug\git_visual.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\test_git_3\git_visual\git_visual\obj\Debug\git_visual.exe
+C:\Users\User\Source\Repos\test_git_3\git_visual\git_visual\obj\Debug\git_visual.pdb
