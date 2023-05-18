@@ -21,6 +21,8 @@ namespace git_visual.user_1
         {
             float maxCurrency1Change = float.MinValue;
             float maxCurrency2Change = float.MinValue;
+            float maxCurrency1ChangeAmount = 0f;
+            float maxCurrency2ChangeAmount = 0f;
             DateTime maxCurrency1ChangeDate = DateTime.MinValue;
             DateTime maxCurrency2ChangeDate = DateTime.MinValue;
 
@@ -28,12 +30,14 @@ namespace git_visual.user_1
             {
                 if (currencyData.Currency1Rate > maxCurrency1Change)
                 {
+                    maxCurrency1ChangeAmount = currencyData.Currency1Rate - maxCurrency1Change;
                     maxCurrency1Change = currencyData.Currency1Rate;
                     maxCurrency1ChangeDate = currencyData.Date;
                 }
 
                 if (currencyData.Currency2Rate > maxCurrency2Change)
                 {
+                    maxCurrency2ChangeAmount = currencyData.Currency2Rate - maxCurrency2Change;
                     maxCurrency2Change = currencyData.Currency2Rate;
                     maxCurrency2ChangeDate = currencyData.Date;
                 }
@@ -42,8 +46,23 @@ namespace git_visual.user_1
             richTextBox.Clear();
 
             richTextBox.AppendText("Максимальное изменение курса валют:\n");
-            richTextBox.AppendText($"Валюта 1: {maxCurrency1Change}, Дата: {maxCurrency1ChangeDate.ToShortDateString()}\n");
-            richTextBox.AppendText($"Валюта 2: {maxCurrency2Change}, Дата: {maxCurrency2ChangeDate.ToShortDateString()}\n");
+            richTextBox.AppendText($"Швейцарский франк: {maxCurrency1Change}, Дата: {maxCurrency1ChangeDate.ToShortDateString()}\n");
+            richTextBox.AppendText($"Доллар США: {maxCurrency2Change}, Дата: {maxCurrency2ChangeDate.ToShortDateString()}\n");
+
+            richTextBox.AppendText("\n");
+
+            richTextBox.AppendText("Изменение курса валют:\n");
+
+            foreach (CurrencyData currencyData in currencyDataList)
+            {
+                richTextBox.AppendText($"Дата: {currencyData.Date.ToShortDateString()}\n");
+                richTextBox.AppendText($"Швейцарский франк: {currencyData.Currency1Rate}\n");
+                richTextBox.AppendText($"Доллар США: {currencyData.Currency2Rate}\n");
+                richTextBox.AppendText("\n");
+            }
         }
+
+
+
     }
 }

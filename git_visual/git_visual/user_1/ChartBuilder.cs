@@ -21,10 +21,10 @@ namespace git_visual.user_1
         {
             chart.Series.Clear();
 
-            Series seriesCurrency1 = new Series("Валюта 1");
+            Series seriesCurrency1 = new Series("Швейцарский франк");
             seriesCurrency1.ChartType = SeriesChartType.Line;
 
-            Series seriesCurrency2 = new Series("Валюта 2");
+            Series seriesCurrency2 = new Series("Доллар США");
             seriesCurrency2.ChartType = SeriesChartType.Line;
 
             foreach (CurrencyData currencyData in currencyDataList)
