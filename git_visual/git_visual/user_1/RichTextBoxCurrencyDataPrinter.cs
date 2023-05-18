@@ -26,8 +26,8 @@ namespace git_visual.user_1
             foreach (CurrencyData currencyData in currencyDataList)
             {
                 richTextBox.AppendText($"Дата: {currencyData.Date.ToShortDateString()}\n");
-                richTextBox.AppendText($"Курс валюты 1: {currencyData.Currency1Rate}\n");
-                richTextBox.AppendText($"Курс валюты 2: {currencyData.Currency2Rate}\n\n");
+                richTextBox.AppendText($"Курс Швейцарского франка: {currencyData.Currency1Rate}\n");
+                richTextBox.AppendText($"Курс Доллара США: {currencyData.Currency2Rate}\n\n");
             }
         }
     }

@@ -77,6 +77,12 @@ namespace git_visual
             ITemperatureDataReader dataReader = new FileTemperatureDataReader();
             temperatureDataList = dataReader.ReadData(filePath);
         }
+
+        private void btn_clr_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Clear();
+            chart1.Series.Clear();
+        }
     }
 
 }
