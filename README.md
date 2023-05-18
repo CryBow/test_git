@@ -1,4 +1,4 @@
-# test_git_lab_№3
+# test_git
 
 ## Описание задачи
 
